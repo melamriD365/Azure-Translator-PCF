@@ -1,5 +1,5 @@
 # Azure-Translator-PCF
-Azure Translator is a simple PCF for translating text with automatic language detection. 
+Azure Translator is a simple PCF for translating text with automatic language detection using Azure Translator service.
 
 The demonstration below illustrates the translation of a field 
 Multiple lines of text and an email that is formatted in HTML.
