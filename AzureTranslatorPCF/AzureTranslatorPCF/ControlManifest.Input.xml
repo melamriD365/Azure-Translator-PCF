@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <control namespace="mea" constructor="AzureTranslatorPCF" version="2.0.1" display-name-key="AzureTranslatorPCF" description-key="AzureTranslatorPCF description" control-type="standard">
+    <!-- property node identifies a specific, configurable piece of data that the control expects from CDS -->
+    <property name="TextToTranslate" display-name-key="TextToTranslate" description-key="TextToTranslate" of-type-group="Strings" usage="bound" required="true"/>
+    <property name="SubscriptionKey" display-name-key="SubscriptionKey" description-key="SubscriptionKey" of-type="SingleLine.Text" usage="input" required="true"/>
+    <property name="EndPoint" display-name-key="EndPoint" description-key="EndPoint" of-type="SingleLine.Text" usage="input" required="true"/>
+    <property name="Region" display-name-key="Region" description-key="Region" of-type="SingleLine.Text" usage="input" required="true"/>
+    <property name="Language" display-name-key="Language" description-key="Language" of-type="SingleLine.Text" usage="input" required="true"/>
+    <property name="Rows" display-name-key="Rows" description-key="Rows" of-type="Whole.None" usage="input" required="true"/>
+      <type-group name="Strings">
+        <type>SingleLine.Text</type>
+        <type>Multiple</type>
+        <type>SingleLine.TextArea</type>
+      </type-group>
+    <resources>
+      <code path="index.ts" order="1"/>
+    </resources>
+  </control>
+</manifest>
