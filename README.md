@@ -19,7 +19,8 @@ https://docs.microsoft.com/en-us/azure/cognitive-services/translator/
 - SubscriptionKey: https://docs.microsoft.com/en-us/azure/cognitive-services/translator/translator-how-to-signup#authentication-key
 - EndPoint: https://docs.microsoft.com/en-us/azure/cognitive-services/translator/translator-how-to-signup#authentication-key
 - Region: https://docs.microsoft.com/en-us/azure/cognitive-services/translator/translator-how-to-signup#authentication-key
-- Language:(Code) https://docs.microsoft.com/en-us/azure/cognitive-services/translator/language-support
+- Language: https://docs.microsoft.com/en-us/azure/cognitive-services/translator/language-support
+  - Examples: en, it, es, fr ..
 - Rows: Rows number for Multiple Line of text
 
 ![](ConfigurationExample.png)
