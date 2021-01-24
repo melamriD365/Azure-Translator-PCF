@@ -4,7 +4,7 @@ Azure Translator is a simple PCF for translating text with automatic language de
 The demonstration below illustrates the translation of a field 
 Multiple lines of text and an email that is formatted in HTML.
 
-![](AzureTranslatorPCFDEMO.gif)
+![](AzureTranslatorPCFDemo.mp4)
 
 ## Prerequisites
 - Azure subscription - Create one for free !
