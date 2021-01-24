@@ -1,1 +1,1 @@
-# Azure-Translatore-PCF
+# Azure-Translator-PCF
